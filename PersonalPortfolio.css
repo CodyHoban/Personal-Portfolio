@@ -95,7 +95,7 @@ body {
     background-color: #DE8B66;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr 0.5fr;
-    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 0.5fr 1fr;
     grid-template-areas:
       "title . . . ."
       ". pro1 . pro2 ."
@@ -118,4 +118,8 @@ body {
   }
   #fourth {
     grid-area: pro4;
+  }
+  .pro-image {
+    width: 250px;
+    height: 250px;
   }
